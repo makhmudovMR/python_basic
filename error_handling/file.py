@@ -31,4 +31,8 @@ def f4():
         print(type(e))
 
 
-f4()
+if __name__ == '__main__':
+    f1()
+    f2()
+    f3()
+    f4()
