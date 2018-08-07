@@ -1,4 +1,4 @@
-class class1(object):
+class Class1(object):
 
     def __init__(self, constructor_arg1, constructor_arg2):
         self.arg1 = constructor_arg1
@@ -18,7 +18,7 @@ class class1(object):
 
 
 if __name__ == '__main__':
-    obj = class1('arg1', 'arg2')
+    obj = Class1('arg1', 'arg2')
     print(obj)
     print(obj.returnobj())
     print(obj.returnobj())
