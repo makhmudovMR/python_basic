@@ -19,4 +19,4 @@ t.start()
 q.put(0)
 print(q.get(), "firts item")
 print('-----')
-print(q.get())
+print(q.get()) # ждём пока поток t добавит значение 5 в очередь
