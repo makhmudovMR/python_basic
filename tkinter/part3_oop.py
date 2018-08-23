@@ -29,8 +29,18 @@ class StartPage(tk.Frame):
         label = tk.Label(self, text="start page")
         label.pack(pady=10, padx=10)
 
+        button = tk.Button(self, text="quit", command=self.command_quit)
+        button.pack(padx=10, pady=10)
+
+        self.controller = controller
+        self.parent = parent
+
         # button = tk.Button(self, text="Hello world")
         # button.pack(side="left", padx=10, pady=10)
+
+    def command_quit(self):
+        self.controller.quit()
+
 
 myapp = MyApp()
 myapp.mainloop()
